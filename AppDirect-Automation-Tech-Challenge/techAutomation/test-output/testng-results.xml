@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+    <line>
+      <![CDATA[Browsers Options :: ]]>
+    </line>
+    <line>
+      <![CDATA[Firefox]]>
+    </line>
+    <line>
+      <![CDATA[Chrome]]>
+    </line>
+    <line>
+      <![CDATA[Safari]]>
+    </line>
+    <line>
+      <![CDATA[Chrome Browser]]>
+    </line>
+    <line>
+      <![CDATA[AppDirect HomePage]]>
+    </line>
+    <line>
+      <![CDATA[AppDirect LoginPage]]>
+    </line>
+    <line>
+      <![CDATA[AppDirect SignUp Page]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="35415" started-at="2017-04-10T09:25:17Z" finished-at="2017-04-10T09:25:52Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="35415" started-at="2017-04-10T09:25:17Z" finished-at="2017-04-10T09:25:52Z">
+      <class name="com.appdirect.TestPackage.HomePageTest">
+        <test-method status="PASS" signature="setupBrowser()[pri:0, instance:com.appdirect.TestPackage.HomePageTest@59fa1d9b]" name="setupBrowser" is-config="true" duration-ms="4836" started-at="2017-04-10T14:55:17Z" finished-at="2017-04-10T14:55:22Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Browsers Options :: ]]>
+            </line>
+            <line>
+              <![CDATA[Firefox]]>
+            </line>
+            <line>
+              <![CDATA[Chrome]]>
+            </line>
+            <line>
+              <![CDATA[Safari]]>
+            </line>
+            <line>
+              <![CDATA[Chrome Browser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setupBrowser -->
+        <test-method status="PASS" signature="openHomePage()[pri:0, instance:com.appdirect.TestPackage.HomePageTest@59fa1d9b]" name="openHomePage" duration-ms="12637" started-at="2017-04-10T14:55:22Z" finished-at="2017-04-10T14:55:34Z">
+          <reporter-output>
+            <line>
+              <![CDATA[AppDirect HomePage]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- openHomePage -->
+        <test-method status="PASS" signature="openLoginPage()[pri:0, instance:com.appdirect.TestPackage.HomePageTest@59fa1d9b]" name="openLoginPage" duration-ms="7574" started-at="2017-04-10T14:55:34Z" finished-at="2017-04-10T14:55:42Z">
+          <reporter-output>
+            <line>
+              <![CDATA[AppDirect LoginPage]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- openLoginPage -->
+        <test-method status="PASS" signature="opensignupPage()[pri:0, instance:com.appdirect.TestPackage.HomePageTest@59fa1d9b]" name="opensignupPage" duration-ms="10249" started-at="2017-04-10T14:55:42Z" finished-at="2017-04-10T14:55:52Z">
+          <reporter-output>
+            <line>
+              <![CDATA[AppDirect SignUp Page]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- opensignupPage -->
+        <test-method status="PASS" signature="closeDriver()[pri:0, instance:com.appdirect.TestPackage.HomePageTest@59fa1d9b]" name="closeDriver" is-config="true" duration-ms="108" started-at="2017-04-10T14:55:52Z" finished-at="2017-04-10T14:55:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+      </class> <!-- com.appdirect.TestPackage.HomePageTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
